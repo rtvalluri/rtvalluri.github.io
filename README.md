@@ -1,2 +1,1 @@
-# rtvalluri.github.io
-My Portfolio page
+visit my page : http://ravitejavalluri.com

@@ -1,0 +1,143 @@
+body {
+	background: #285179;
+	color: white;	
+	font-family: 'Raleway', sans-serif;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.2s linear;
+}
+.section {
+	position: relative;
+ 	overflow: auto;
+ 	margin-top: 50px;
+}
+.cf {
+	overflow: auto;
+}
+.body-wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+.content-wrapper {
+	position: relative;
+}
+.image-div {
+	width: 90%;
+	margin: 30px auto 10px;
+}
+.author {
+	display: block;
+	overflow: hidden;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin: 20px auto;
+	border : 2px solid rgba(255, 255, 255, 0.68);
+	transition: all 0.3s linear;
+}
+.main-text {
+	text-align: center;
+	margin: 15px 0;
+}
+.main-text h1 {
+	font-size: 200%;
+}
+.main-text h1,
+.main-text h2{
+	margin: 10px 0;
+	padding: 0;
+}
+.social-logos {
+	margin: 20px 5px;
+	text-align: center;
+}
+.social-logos a{
+	color: #285179 !important;
+}
+.slogo {
+	margin: 0 5px;
+	background: #fff;
+	color: #285179;
+	height: 35px;
+	line-height: 35px;
+	cursor: pointer;
+	width: 35px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.about-me {
+	color: #fff;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.more {
+	cursor: pointer;
+	font-weight: bold;
+}
+.more:hover {
+	color: #fff !important;
+}
+
+.block {
+	margin: 10px 0;
+	/*background: #fff;*/
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+.block-content {
+	width: 95%;
+	margin: 10px auto;
+}
+.block-content h2 {
+	/*color: #285179;*/
+	border-bottom: 1px solid #fff;
+  	margin: 10px auto;
+}
+.block-content p {
+	width: 98%;
+	margin: 20px auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+.hl {
+	border-bottom: 1px solid #fff; 
+}
+.nav {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff !important;
+}
+.mail {
+	font-weight: bold;
+}
+@media screen and (max-width: 767px){
+	.section {
+		margin-top: 20px;
+	}
+	.main-text h1{
+		font-size: 180%;
+	}
+	.author {
+		height: 230px;
+		width: 230px;
+	}
+	.block-content p {
+		width: 95%;	
+	}
+	.about-me {
+		width: 90%;
+	}
+}
