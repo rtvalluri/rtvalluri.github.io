@@ -1,5 +1,5 @@
 body {
-	background: #285179;
+	background: #1e5a4d;
 	color: white;	
 	font-family: 'Raleway', sans-serif;
 }
@@ -61,12 +61,12 @@ a {
 	text-align: center;
 }
 .social-logos a{
-	color: #285179 !important;
+	color: #1e5a4d !important;
 }
 .slogo {
 	margin: 0 5px;
 	background: #fff;
-	color: #285179;
+	color: #1e5a4d;
 	height: 35px;
 	line-height: 35px;
 	cursor: pointer;
@@ -100,7 +100,6 @@ a {
 	margin: 10px auto;
 }
 .block-content h2 {
-	/*color: #285179;*/
 	border-bottom: 1px solid #fff;
   	margin: 10px auto;
 }
