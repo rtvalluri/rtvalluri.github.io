@@ -75,10 +75,12 @@ a {
 	display: inline-block;
 }
 .about-me {
-	color: #fff;
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
+    color: #fff;
+    max-width: 500px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
 }
 .more {
 	cursor: pointer;
