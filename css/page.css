@@ -1,7 +1,7 @@
 body {
 	background: rgba(30, 90, 77, 0.9);
 	color: white;	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 ul,li{
 	margin: 0;
@@ -76,7 +76,6 @@ a {
 }
 .about-me {
     font-size: 18px;
-    color: #fff;
     max-width: 500px;
     width: 60%;
     margin-right: auto;
