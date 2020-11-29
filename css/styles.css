@@ -1,0 +1,83 @@
+body {
+	background-color: #e2e2e2;
+	font-family: system-ui;
+	color: darkslateblue;
+	max-width: 900px;
+	margin: 5px auto;
+}
+
+.grey-color {
+	color: #000000ab;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.thin-text {
+	font-weight: 400;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex.h-align-between {
+	justify-content: space-between;
+}
+
+.flex.v-align-center {
+	align-items: center;
+}
+
+section {
+	margin: 20px 1px;
+}
+
+section p {
+	/* margin-left: 20px !important; */
+}
+
+section h3,
+.page-title {
+	text-transform: uppercase;
+}
+
+section h3 {
+	font-weight: 300;
+	/* border-bottom: 1px solid #0000000f; */
+}
+
+section .section-title {
+	margin: 10px 0px;
+	color: #000000ab;
+	font-style: italic;
+}
+
+section.company,
+section.institution {
+	margin: 5px 0px;
+}
+
+section.company .company-name,
+section.institution .institution-name {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+section.company .period,
+section.institution .period {
+	color: #000000ab;
+	font-size: small;
+}
+
+section.institution .institution-name {
+}
