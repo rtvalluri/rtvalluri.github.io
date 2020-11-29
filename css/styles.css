@@ -2,8 +2,16 @@ body {
 	background-color: #e2e2e2;
 	font-family: system-ui;
 	color: darkslateblue;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 5px auto;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
 }
 
 .grey-color {
@@ -16,6 +24,10 @@ body {
 
 .m-0 {
 	margin: 0;
+}
+
+.mt-0 {
+	margin-top: 0;
 }
 
 .p-0 {
@@ -34,8 +46,52 @@ body {
 	justify-content: space-between;
 }
 
+.flex.h-align-even {
+	justify-content: space-evenly;
+}
+
 .flex.v-align-center {
 	align-items: center;
+}
+
+ul.list-style-none li {
+	list-style-type: none;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.profile-card {
+	text-align: center;
+	border: 1px solid lightslategray;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin: 10px;
+	min-width: 180px;
+}
+
+.profile-card #profile-image {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.profile-card .social-profiles ul,
+.profile-card .skills ul {
+	padding-left: 0;
+}
+
+.profile-card .social-profiles a {
+	text-decoration: none;
+}
+
+.profile-card section h4 {
+	margin: 10px 0;
+}
+
+main {
+	margin: 10px;
 }
 
 section {
@@ -52,14 +108,14 @@ section h3,
 }
 
 section h3 {
-	font-weight: 300;
+	font-weight: 400;
 	/* border-bottom: 1px solid #0000000f; */
 }
 
 section .section-title {
 	margin: 10px 0px;
 	color: #000000ab;
-	font-style: italic;
+	/* font-style: italic; */
 }
 
 section.company,
@@ -80,4 +136,12 @@ section.institution .period {
 }
 
 section.institution .institution-name {
+}
+
+@media screen and (max-width: 768px) {
+	.profile-card #profile-image {
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+	}
 }
