@@ -3,7 +3,12 @@ body {
 	font-family: system-ui;
 	color: darkslateblue;
 	max-width: 1000px;
-	margin: 5px auto;
+	margin: 1px auto;
+}
+
+article {
+	display: flex;
+	justify-content: space-between;
 }
 
 ul {
@@ -26,12 +31,24 @@ li {
 	margin: 0;
 }
 
+.m-1 {
+	margin: 5px;
+}
+
 .mt-0 {
 	margin-top: 0;
 }
 
 .p-0 {
 	padding: 0;
+}
+
+.small-text {
+	font-size: smaller;
+}
+
+.bigger-text {
+	font-size: large;
 }
 
 .thin-text {
@@ -67,8 +84,8 @@ ul.list-style-none li {
 	border: 1px solid lightslategray;
 	border-radius: 4px;
 	padding: 10px 20px;
-	margin: 10px;
-	min-width: 180px;
+	margin: 1px 10px;
+	min-width: 220px;
 }
 
 .profile-card #profile-image {
@@ -87,11 +104,16 @@ ul.list-style-none li {
 }
 
 .profile-card section h4 {
-	margin: 10px 0;
+	margin: 7px 0;
+}
+
+.profile-card li {
+	font-size: 14px;
 }
 
 main {
-	margin: 10px;
+	margin: 1px auto;
+	padding: 10px;
 }
 
 section {
@@ -102,9 +124,9 @@ section p {
 	/* margin-left: 20px !important; */
 }
 
-section h3,
 .page-title {
 	text-transform: uppercase;
+	font-size: x-large;
 }
 
 section h3 {
@@ -115,7 +137,7 @@ section h3 {
 section .section-title {
 	margin: 10px 0px;
 	color: #000000ab;
-	/* font-style: italic; */
+	font-weight: 600;
 }
 
 section.company,
@@ -123,9 +145,13 @@ section.institution {
 	margin: 5px 0px;
 }
 
-section.company .company-name,
+section.company > p {
+	margin-left: 10px;
+}
+
+section.company .role,
 section.institution .institution-name {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 500;
 }
 
@@ -138,10 +164,23 @@ section.institution .period {
 section.institution .institution-name {
 }
 
+.works .work-card {
+	border: 1px solid lightslategray;
+	border-radius: 4px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
 	.profile-card #profile-image {
 		border-radius: 50%;
 		width: 80px;
 		height: 80px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	article {
+		flex-direction: column;
 	}
 }
