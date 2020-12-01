@@ -1,18 +1,17 @@
 body {
-	background-color: #e2e2e2;
+	/* background-color: #e2e2e2; */
 	font-family: system-ui;
 	color: darkslateblue;
-	max-width: 1000px;
-	margin: 1px auto;
-}
-
-article {
-	display: flex;
-	justify-content: space-between;
+	/* max-width: 1000px; */
+	margin: 0px auto;
 }
 
 ul {
 	padding: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 li {
@@ -83,9 +82,11 @@ ul.list-style-none li {
 	text-align: center;
 	border: 1px solid lightslategray;
 	border-radius: 4px;
-	padding: 10px 20px;
-	margin: 1px 10px;
+	padding: 10px 15px;
+	margin: 5px auto;
 	min-width: 220px;
+	max-width: 500px;
+	box-shadow: 1px 1px 0px 0px lightslategray;
 }
 
 .profile-card #profile-image {
@@ -104,7 +105,7 @@ ul.list-style-none li {
 }
 
 .profile-card section h4 {
-	margin: 7px 0;
+	margin: 6px 0;
 }
 
 .profile-card li {
@@ -117,7 +118,7 @@ main {
 }
 
 section {
-	margin: 20px 1px;
+	margin: 10px 1px;
 }
 
 section p {
