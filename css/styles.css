@@ -3,7 +3,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: system-ui;
+	font-family: system-ui, sans-serif;
 	color: darkslateblue;
 }
 
