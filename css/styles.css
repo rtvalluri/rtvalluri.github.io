@@ -2,7 +2,7 @@ body {
 	/* background-color: #e2e2e2; */
 	font-family: system-ui;
 	color: darkslateblue;
-	/* max-width: 1000px; */
+	max-width: 600px;
 	margin: 0px auto;
 }
 
@@ -83,7 +83,7 @@ ul.list-style-none li {
 	border: 1px solid lightslategray;
 	border-radius: 4px;
 	padding: 10px 15px;
-	margin: 5px auto;
+	margin: 6px;
 	min-width: 220px;
 	max-width: 500px;
 	box-shadow: 1px 1px 0px 0px lightslategray;
