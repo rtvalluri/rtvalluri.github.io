@@ -1,1 +1,1 @@
-visit my page : http://rtvalluri.github.io
+http://rtvalluri.github.io
